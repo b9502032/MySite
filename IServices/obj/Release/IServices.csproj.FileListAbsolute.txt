@@ -1,0 +1,7 @@
+C:\Users\Krone\Desktop\enterpriseedition\IServices\bin\Release\IServices.dll
+C:\Users\Krone\Desktop\enterpriseedition\IServices\bin\Release\IServices.pdb
+C:\Users\Krone\Desktop\enterpriseedition\IServices\bin\Release\Models.dll
+C:\Users\Krone\Desktop\enterpriseedition\IServices\bin\Release\Models.pdb
+C:\Users\Krone\Desktop\enterpriseedition\IServices\obj\Release\IServices.csprojResolveAssemblyReference.cache
+C:\Users\Krone\Desktop\enterpriseedition\IServices\obj\Release\IServices.dll
+C:\Users\Krone\Desktop\enterpriseedition\IServices\obj\Release\IServices.pdb

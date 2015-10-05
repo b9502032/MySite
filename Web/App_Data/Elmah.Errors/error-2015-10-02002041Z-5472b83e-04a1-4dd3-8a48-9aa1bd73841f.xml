@@ -1,0 +1,180 @@
+﻿<error errorId="5472b83e-04a1-4dd3-8a48-9aa1bd73841f" application="/LM/W3SVC/20/ROOT" host="DESKTOP-GV8BF1A" type="System.Web.HttpException" message="未找到路径“/content/icon/menu@2x.png”的控制器或该控制器未实现 IController。" source="System.Web.Mvc" detail="System.Web.HttpException (0x80004005): 未找到路径“/content/icon/menu@2x.png”的控制器或该控制器未实现 IController。&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController&amp; controller, IControllerFactory&amp; factory)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)&#xD;&#xA;   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="5d9eb224-ef1f-4086-909c-aedbead3b819,8dec3aca-5c62-4b11-b741-ba99c751aa3d" time="2015-10-02T00:20:41.3182676Z" statusCode="404">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:image/webp,image/*,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate, sdch&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8,en;q=0.6&#xD;&#xA;HTTP_COOKIE:_ga=GA1.1.1404299012.1442131479; sitekeyword=%3Ca+href%3D%27productlist%2Easp%3Fkind%3D0006+%27%3E%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4820+%27%3E%3F%3F%3F%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4821+%27%3E%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B; __RequestVerificationToken=74BesIBKZtaf9H7uQeQsH_KSDyFCJDsQUvsdcc3MuIAR-v6ujp-btVDwBBk1cMvGPLELiAggz6q4hV3w3B0tSCYJbBhx-c12z06OQS6V5_81; eCommerceBasket=dcc135af-6f15-455f-8558-6a93406544d1; ASP.NET_SessionId=s1y3ts5ogx5hqrtztmktbjvu; MvcForumAuth=992563E44251679DCF335AF79DA11F7D43D3F0F59F08898FF641C2F245FAFD64FFFC7F4F4060167F630E8EC9C6EFDE1AEA06D55D5BF8B674302F5515620F741243FD416726724CF208FAEEB018680AE9D976D00461F3BBE97B4A1C5861F84CA9620C2D5ECD28788859707E6764A656C65FD5AF7A20C5ADFE75A1E33DB9B2C4D7; mpms 2.0=E8DFAF6008D59B836C1EDFBAE009C9E0EC6914F0F64D111C8CE1AC58EDE47EB1D5302FDFDA0CC626F770D41EBF71AFD045C3553786FD15FEBA4199E289CD3C18A950A2F58076BD0C8309BC7A665AA9C502724604D9F411F7AE859DF3D373F5894897602C98CFD5949B798846457CC4DD8E7D1A0DADED61788B23A390C74792A73A5F1D95C215D978A5EB86A98F6C6DA9794C3A27A2D4F41AA78773090AAA2F301E42693700433BB557FD94C6113C3E5B5239B2610D9673AC80AA1036333A1AAA5CF83FAB77AF2F78B7846660FCBA9E5AB199911648FB6F386846E670AFAEE3D596A76B68D1DA41DFF3005B24180C665D76810E15FC544C4B6DF5CBF3FFC04022A2CDB14C6BF4D3568CA6AC6384141976&#xD;&#xA;HTTP_HOST:localhost:46648&#xD;&#xA;HTTP_REFERER:http://localhost:46648/Content/body.css&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: image/webp,image/*,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate, sdch&#xD;&#xA;Accept-Language: zh-CN,zh;q=0.8,en;q=0.6&#xD;&#xA;Cookie: _ga=GA1.1.1404299012.1442131479; sitekeyword=%3Ca+href%3D%27productlist%2Easp%3Fkind%3D0006+%27%3E%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4820+%27%3E%3F%3F%3F%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4821+%27%3E%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B; __RequestVerificationToken=74BesIBKZtaf9H7uQeQsH_KSDyFCJDsQUvsdcc3MuIAR-v6ujp-btVDwBBk1cMvGPLELiAggz6q4hV3w3B0tSCYJbBhx-c12z06OQS6V5_81; eCommerceBasket=dcc135af-6f15-455f-8558-6a93406544d1; ASP.NET_SessionId=s1y3ts5ogx5hqrtztmktbjvu; MvcForumAuth=992563E44251679DCF335AF79DA11F7D43D3F0F59F08898FF641C2F245FAFD64FFFC7F4F4060167F630E8EC9C6EFDE1AEA06D55D5BF8B674302F5515620F741243FD416726724CF208FAEEB018680AE9D976D00461F3BBE97B4A1C5861F84CA9620C2D5ECD28788859707E6764A656C65FD5AF7A20C5ADFE75A1E33DB9B2C4D7; mpms 2.0=E8DFAF6008D59B836C1EDFBAE009C9E0EC6914F0F64D111C8CE1AC58EDE47EB1D5302FDFDA0CC626F770D41EBF71AFD045C3553786FD15FEBA4199E289CD3C18A950A2F58076BD0C8309BC7A665AA9C502724604D9F411F7AE859DF3D373F5894897602C98CFD5949B798846457CC4DD8E7D1A0DADED61788B23A390C74792A73A5F1D95C215D978A5EB86A98F6C6DA9794C3A27A2D4F41AA78773090AAA2F301E42693700433BB557FD94C6113C3E5B5239B2610D9673AC80AA1036333A1AAA5CF83FAB77AF2F78B7846660FCBA9E5AB199911648FB6F386846E670AFAEE3D596A76B68D1DA41DFF3005B24180C665D76810E15FC544C4B6DF5CBF3FFC04022A2CDB14C6BF4D3568CA6AC6384141976&#xD;&#xA;Host: localhost:46648&#xD;&#xA;Referer: http://localhost:46648/Content/body.css&#xD;&#xA;User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/20/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\Krone\Desktop\enterpriseedition\Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="5d9eb224-ef1f-4086-909c-aedbead3b819,8dec3aca-5c62-4b11-b741-ba99c751aa3d" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="5d9eb224-ef1f-4086-909c-aedbead3b819,8dec3aca-5c62-4b11-b741-ba99c751aa3d" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="20" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/20" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/content/icon/menu@2x.png" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\Krone\Desktop\enterpriseedition\Web\content\icon\menu@2x.png" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="33343" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/content/icon/menu@2x.png" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="46648" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/content/icon/menu@2x.png" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="image/webp,image/*,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate, sdch" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-CN,zh;q=0.8,en;q=0.6" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="_ga=GA1.1.1404299012.1442131479; sitekeyword=%3Ca+href%3D%27productlist%2Easp%3Fkind%3D0006+%27%3E%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4820+%27%3E%3F%3F%3F%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4821+%27%3E%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B; __RequestVerificationToken=74BesIBKZtaf9H7uQeQsH_KSDyFCJDsQUvsdcc3MuIAR-v6ujp-btVDwBBk1cMvGPLELiAggz6q4hV3w3B0tSCYJbBhx-c12z06OQS6V5_81; eCommerceBasket=dcc135af-6f15-455f-8558-6a93406544d1; ASP.NET_SessionId=s1y3ts5ogx5hqrtztmktbjvu; MvcForumAuth=992563E44251679DCF335AF79DA11F7D43D3F0F59F08898FF641C2F245FAFD64FFFC7F4F4060167F630E8EC9C6EFDE1AEA06D55D5BF8B674302F5515620F741243FD416726724CF208FAEEB018680AE9D976D00461F3BBE97B4A1C5861F84CA9620C2D5ECD28788859707E6764A656C65FD5AF7A20C5ADFE75A1E33DB9B2C4D7; mpms 2.0=E8DFAF6008D59B836C1EDFBAE009C9E0EC6914F0F64D111C8CE1AC58EDE47EB1D5302FDFDA0CC626F770D41EBF71AFD045C3553786FD15FEBA4199E289CD3C18A950A2F58076BD0C8309BC7A665AA9C502724604D9F411F7AE859DF3D373F5894897602C98CFD5949B798846457CC4DD8E7D1A0DADED61788B23A390C74792A73A5F1D95C215D978A5EB86A98F6C6DA9794C3A27A2D4F41AA78773090AAA2F301E42693700433BB557FD94C6113C3E5B5239B2610D9673AC80AA1036333A1AAA5CF83FAB77AF2F78B7846660FCBA9E5AB199911648FB6F386846E670AFAEE3D596A76B68D1DA41DFF3005B24180C665D76810E15FC544C4B6DF5CBF3FFC04022A2CDB14C6BF4D3568CA6AC6384141976" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:46648" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:46648/Content/body.css" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="_ga">
+      <value string="GA1.1.1404299012.1442131479" />
+    </item>
+    <item name="sitekeyword">
+      <value string="%3Ca+href%3D%27productlist%2Easp%3Fkind%3D0006+%27%3E%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4820+%27%3E%3F%3F%3F%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4821+%27%3E%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B" />
+    </item>
+    <item name="__RequestVerificationToken">
+      <value string="74BesIBKZtaf9H7uQeQsH_KSDyFCJDsQUvsdcc3MuIAR-v6ujp-btVDwBBk1cMvGPLELiAggz6q4hV3w3B0tSCYJbBhx-c12z06OQS6V5_81" />
+    </item>
+    <item name="eCommerceBasket">
+      <value string="dcc135af-6f15-455f-8558-6a93406544d1" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="s1y3ts5ogx5hqrtztmktbjvu" />
+    </item>
+    <item name="MvcForumAuth">
+      <value string="992563E44251679DCF335AF79DA11F7D43D3F0F59F08898FF641C2F245FAFD64FFFC7F4F4060167F630E8EC9C6EFDE1AEA06D55D5BF8B674302F5515620F741243FD416726724CF208FAEEB018680AE9D976D00461F3BBE97B4A1C5861F84CA9620C2D5ECD28788859707E6764A656C65FD5AF7A20C5ADFE75A1E33DB9B2C4D7" />
+    </item>
+    <item name="mpms 2.0">
+      <value string="E8DFAF6008D59B836C1EDFBAE009C9E0EC6914F0F64D111C8CE1AC58EDE47EB1D5302FDFDA0CC626F770D41EBF71AFD045C3553786FD15FEBA4199E289CD3C18A950A2F58076BD0C8309BC7A665AA9C502724604D9F411F7AE859DF3D373F5894897602C98CFD5949B798846457CC4DD8E7D1A0DADED61788B23A390C74792A73A5F1D95C215D978A5EB86A98F6C6DA9794C3A27A2D4F41AA78773090AAA2F301E42693700433BB557FD94C6113C3E5B5239B2610D9673AC80AA1036333A1AAA5CF83FAB77AF2F78B7846660FCBA9E5AB199911648FB6F386846E670AFAEE3D596A76B68D1DA41DFF3005B24180C665D76810E15FC544C4B6DF5CBF3FFC04022A2CDB14C6BF4D3568CA6AC6384141976" />
+    </item>
+  </cookies>
+</error>

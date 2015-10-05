@@ -1,0 +1,7 @@
+C:\Users\Krone\Desktop\enterpriseedition\LanguagePack\bin\Release\LanguagePack.dll
+C:\Users\Krone\Desktop\enterpriseedition\LanguagePack\bin\Release\LanguagePack.pdb
+C:\Users\Krone\Desktop\enterpriseedition\LanguagePack\obj\Release\LanguagePack.csprojResolveAssemblyReference.cache
+C:\Users\Krone\Desktop\enterpriseedition\LanguagePack\obj\Release\LanguagePack.lang.resources
+C:\Users\Krone\Desktop\enterpriseedition\LanguagePack\obj\Release\LanguagePack.csproj.GenerateResource.Cache
+C:\Users\Krone\Desktop\enterpriseedition\LanguagePack\obj\Release\LanguagePack.dll
+C:\Users\Krone\Desktop\enterpriseedition\LanguagePack\obj\Release\LanguagePack.pdb

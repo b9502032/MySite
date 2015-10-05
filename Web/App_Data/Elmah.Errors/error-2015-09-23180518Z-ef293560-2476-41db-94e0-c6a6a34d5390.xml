@@ -1,0 +1,206 @@
+﻿<error errorId="ef293560-2476-41db-94e0-c6a6a34d5390" application="/LM/W3SVC/20/ROOT" host="DESKTOP-GV8BF1A" type="System.InvalidOperationException" message="在当前应用程序配置中不支持 WebSockets。 要启用它，请在 Web.config 中设置以下配置开关:&#xD;&#xA;&lt;system.web&gt;&#xD;&#xA;  &lt;httpRuntime targetFramework=&quot;4.5&quot; /&gt;&#xD;&#xA;&lt;/system.web&gt;&#xD;&#xA;有关详细信息，请参阅: http://go.microsoft.com/fwlink/?LinkId=252465。" source="System.Web" detail="System.InvalidOperationException: 在当前应用程序配置中不支持 WebSockets。 要启用它，请在 Web.config 中设置以下配置开关:&#xD;&#xA;&lt;system.web&gt;&#xD;&#xA;  &lt;httpRuntime targetFramework=&quot;4.5&quot; /&gt;&#xD;&#xA;&lt;/system.web&gt;&#xD;&#xA;有关详细信息，请参阅: http://go.microsoft.com/fwlink/?LinkId=252465。&#xD;&#xA;   在 System.Web.Util.SynchronizationContextUtil.ValidateMode(SynchronizationContextMode currentMode, SynchronizationContextMode requiredMode, String specificErrorMessage)&#xD;&#xA;   在 System.Web.Util.SynchronizationContextUtil.ValidateModeForWebSockets()&#xD;&#xA;   在 System.Web.HttpContext.AcceptWebSocketRequest(Func`2 userFunc, AspNetWebSocketOptions options)&#xD;&#xA;   在 System.Web.HttpContextWrapper.AcceptWebSocketRequest(Func`2 userFunc, AspNetWebSocketOptions options)&#xD;&#xA;   在 Microsoft.Owin.Host.SystemWeb.OwinCallContext.DoWebSocketUpgrade(IDictionary`2 acceptOptions, Func`2 webSocketFunc)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.Transports.WebSocketTransport.AcceptWebSocketRequest(Func`2 callback)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.Transports.WebSocketTransport.ProcessRequest(ITransportConnection connection)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(HostContext context)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.Hubs.HubDispatcher.ProcessRequest(HostContext context)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(IDictionary`2 environment)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.Owin.Middleware.HubDispatcherMiddleware.Invoke(IOwinContext context)&#xD;&#xA;   在 Microsoft.Owin.Mapping.MapMiddleware.&lt;Invoke&gt;d__0.MoveNext()&#xD;&#xA;--- 引发异常的上一位置中堆栈跟踪的末尾 ---&#xD;&#xA;   在 Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar)&#xD;&#xA;   在 Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.EndFinalWork(IAsyncResult ar)&#xD;&#xA;   在 System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="a18dfa04-ce1d-4e1e-9b6c-5cecd7e12db7,88f0604d-2b3e-4719-aaa0-e1a6c3abab12" time="2015-09-23T18:05:18.9639610Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:no-cache&#xD;&#xA;HTTP_CONNECTION:Upgrade&#xD;&#xA;HTTP_PRAGMA:no-cache&#xD;&#xA;HTTP_UPGRADE:websocket&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate, sdch&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8,en;q=0.6&#xD;&#xA;HTTP_COOKIE:_ga=GA1.1.1404299012.1442131479; sitekeyword=%3Ca+href%3D%27productlist%2Easp%3Fkind%3D0006+%27%3E%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4820+%27%3E%3F%3F%3F%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4821+%27%3E%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B; __RequestVerificationToken=nuGsLQCmd7IgGNb0Emf4U3Qm8VHwzWjOukumkPgEnGJQrupkLGpDS402M6qRGJqpOwzQgYCQkasa__Im5Q0w9u5RVBLcNliD-xToCTpz3P01; ASP.NET_SessionId=0rchyiowuynm0pok2ef0ip2z; mpms 2.0=AC1DF0C71563E8577452017EE5DCE4BACE5571AF71387EA6B70877EE35E19D380F16AAF0D26426352DA6EF74A03D35A145CCF73B2180463ED605A585F40FD0E43419E155267F09F164FB6647A29CB78ED8A8C9A23681410D3C3523867E9DEC9D03A62C12DE9714D54A773BCC82AAC22182F95A6C44FFEAD3B1DC31BB4E7C038CCC205566CE9E9AB96757E1927C8EED480ED5E6CF0EBFFECF4E4D967A4263A6A562ACDB252A70CEABC748A9E397C7BDFFC0AC905AEDCC8B7D7523F04A15E29B7CB4A6B1C9FF7B0E8C2A669B27DE3EEDF8AC772B5ADF1CACF1911ABF93564DA71F1240A84CDE5042920D0989ED795C6A53571C879174B4EADD6E7FB22322FBD9CD59504B6966BE5411E537DCFE38779667&#xD;&#xA;HTTP_HOST:localhost:46648&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36&#xD;&#xA;HTTP_ORIGIN:http://localhost:46648&#xD;&#xA;HTTP_SEC_WEBSOCKET_VERSION:13&#xD;&#xA;HTTP_SEC_WEBSOCKET_KEY:KI0Y7AykEkkF0Tz9Qx9sfQ==&#xD;&#xA;HTTP_SEC_WEBSOCKET_EXTENSIONS:permessage-deflate; client_max_window_bits&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: no-cache&#xD;&#xA;Connection: Upgrade&#xD;&#xA;Pragma: no-cache&#xD;&#xA;Upgrade: websocket&#xD;&#xA;Accept-Encoding: gzip, deflate, sdch&#xD;&#xA;Accept-Language: zh-CN,zh;q=0.8,en;q=0.6&#xD;&#xA;Cookie: _ga=GA1.1.1404299012.1442131479; sitekeyword=%3Ca+href%3D%27productlist%2Easp%3Fkind%3D0006+%27%3E%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4820+%27%3E%3F%3F%3F%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4821+%27%3E%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B; __RequestVerificationToken=nuGsLQCmd7IgGNb0Emf4U3Qm8VHwzWjOukumkPgEnGJQrupkLGpDS402M6qRGJqpOwzQgYCQkasa__Im5Q0w9u5RVBLcNliD-xToCTpz3P01; ASP.NET_SessionId=0rchyiowuynm0pok2ef0ip2z; mpms 2.0=AC1DF0C71563E8577452017EE5DCE4BACE5571AF71387EA6B70877EE35E19D380F16AAF0D26426352DA6EF74A03D35A145CCF73B2180463ED605A585F40FD0E43419E155267F09F164FB6647A29CB78ED8A8C9A23681410D3C3523867E9DEC9D03A62C12DE9714D54A773BCC82AAC22182F95A6C44FFEAD3B1DC31BB4E7C038CCC205566CE9E9AB96757E1927C8EED480ED5E6CF0EBFFECF4E4D967A4263A6A562ACDB252A70CEABC748A9E397C7BDFFC0AC905AEDCC8B7D7523F04A15E29B7CB4A6B1C9FF7B0E8C2A669B27DE3EEDF8AC772B5ADF1CACF1911ABF93564DA71F1240A84CDE5042920D0989ED795C6A53571C879174B4EADD6E7FB22322FBD9CD59504B6966BE5411E537DCFE38779667&#xD;&#xA;Host: localhost:46648&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36&#xD;&#xA;Origin: http://localhost:46648&#xD;&#xA;Sec-WebSocket-Version: 13&#xD;&#xA;Sec-WebSocket-Key: KI0Y7AykEkkF0Tz9Qx9sfQ==&#xD;&#xA;Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/20/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\Krone\Desktop\enterpriseedition\Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="a18dfa04-ce1d-4e1e-9b6c-5cecd7e12db7,88f0604d-2b3e-4719-aaa0-e1a6c3abab12" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="a18dfa04-ce1d-4e1e-9b6c-5cecd7e12db7,88f0604d-2b3e-4719-aaa0-e1a6c3abab12" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="20" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/20" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/signalr/connect" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\Krone\Desktop\enterpriseedition\Web\signalr\connect" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="transport=webSockets&amp;clientProtocol=1.4&amp;connectionToken=U1J15s9kCDCTW47MnoawH03QJJEhdYkTsS1B%2F6foH8FHztUQgNIo%2FK5GK8FzHo5cX0ACjalg0PPvQTaLTrNmZJDqnDXgeRIcYG29efaC81aNO7Up6A7y7%2F5m0UwFaJWj9n%2F5SFecD%2FTDEblZleBJcONFXMM5u4Uu9Ro9J9E8hgWSvIhhQ5onNxCPc%2B6TQN9Y26Y%2F44RnPJDU3LTutvSqUw%3D%3D&amp;connectionData=%5B%7B%22name%22%3A%22messenger%22%7D%5D&amp;tid=6" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="4471" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/signalr/connect" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="46648" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/signalr/connect" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="no-cache" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="Upgrade" />
+    </item>
+    <item name="HTTP_PRAGMA">
+      <value string="no-cache" />
+    </item>
+    <item name="HTTP_UPGRADE">
+      <value string="websocket" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate, sdch" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-CN,zh;q=0.8,en;q=0.6" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="_ga=GA1.1.1404299012.1442131479; sitekeyword=%3Ca+href%3D%27productlist%2Easp%3Fkind%3D0006+%27%3E%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4820+%27%3E%3F%3F%3F%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4821+%27%3E%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B; __RequestVerificationToken=nuGsLQCmd7IgGNb0Emf4U3Qm8VHwzWjOukumkPgEnGJQrupkLGpDS402M6qRGJqpOwzQgYCQkasa__Im5Q0w9u5RVBLcNliD-xToCTpz3P01; ASP.NET_SessionId=0rchyiowuynm0pok2ef0ip2z; mpms 2.0=AC1DF0C71563E8577452017EE5DCE4BACE5571AF71387EA6B70877EE35E19D380F16AAF0D26426352DA6EF74A03D35A145CCF73B2180463ED605A585F40FD0E43419E155267F09F164FB6647A29CB78ED8A8C9A23681410D3C3523867E9DEC9D03A62C12DE9714D54A773BCC82AAC22182F95A6C44FFEAD3B1DC31BB4E7C038CCC205566CE9E9AB96757E1927C8EED480ED5E6CF0EBFFECF4E4D967A4263A6A562ACDB252A70CEABC748A9E397C7BDFFC0AC905AEDCC8B7D7523F04A15E29B7CB4A6B1C9FF7B0E8C2A669B27DE3EEDF8AC772B5ADF1CACF1911ABF93564DA71F1240A84CDE5042920D0989ED795C6A53571C879174B4EADD6E7FB22322FBD9CD59504B6966BE5411E537DCFE38779667" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:46648" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36" />
+    </item>
+    <item name="HTTP_ORIGIN">
+      <value string="http://localhost:46648" />
+    </item>
+    <item name="HTTP_SEC_WEBSOCKET_VERSION">
+      <value string="13" />
+    </item>
+    <item name="HTTP_SEC_WEBSOCKET_KEY">
+      <value string="KI0Y7AykEkkF0Tz9Qx9sfQ==" />
+    </item>
+    <item name="HTTP_SEC_WEBSOCKET_EXTENSIONS">
+      <value string="permessage-deflate; client_max_window_bits" />
+    </item>
+  </serverVariables>
+  <queryString>
+    <item name="transport">
+      <value string="webSockets" />
+    </item>
+    <item name="clientProtocol">
+      <value string="1.4" />
+    </item>
+    <item name="connectionToken">
+      <value string="U1J15s9kCDCTW47MnoawH03QJJEhdYkTsS1B/6foH8FHztUQgNIo/K5GK8FzHo5cX0ACjalg0PPvQTaLTrNmZJDqnDXgeRIcYG29efaC81aNO7Up6A7y7/5m0UwFaJWj9n/5SFecD/TDEblZleBJcONFXMM5u4Uu9Ro9J9E8hgWSvIhhQ5onNxCPc+6TQN9Y26Y/44RnPJDU3LTutvSqUw==" />
+    </item>
+    <item name="connectionData">
+      <value string="[{&quot;name&quot;:&quot;messenger&quot;}]" />
+    </item>
+    <item name="tid">
+      <value string="6" />
+    </item>
+  </queryString>
+  <cookies>
+    <item name="_ga">
+      <value string="GA1.1.1404299012.1442131479" />
+    </item>
+    <item name="sitekeyword">
+      <value string="%3Ca+href%3D%27productlist%2Easp%3Fkind%3D0006+%27%3E%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4820+%27%3E%3F%3F%3F%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4821+%27%3E%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B" />
+    </item>
+    <item name="__RequestVerificationToken">
+      <value string="nuGsLQCmd7IgGNb0Emf4U3Qm8VHwzWjOukumkPgEnGJQrupkLGpDS402M6qRGJqpOwzQgYCQkasa__Im5Q0w9u5RVBLcNliD-xToCTpz3P01" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="0rchyiowuynm0pok2ef0ip2z" />
+    </item>
+    <item name="mpms 2.0">
+      <value string="AC1DF0C71563E8577452017EE5DCE4BACE5571AF71387EA6B70877EE35E19D380F16AAF0D26426352DA6EF74A03D35A145CCF73B2180463ED605A585F40FD0E43419E155267F09F164FB6647A29CB78ED8A8C9A23681410D3C3523867E9DEC9D03A62C12DE9714D54A773BCC82AAC22182F95A6C44FFEAD3B1DC31BB4E7C038CCC205566CE9E9AB96757E1927C8EED480ED5E6CF0EBFFECF4E4D967A4263A6A562ACDB252A70CEABC748A9E397C7BDFFC0AC905AEDCC8B7D7523F04A15E29B7CB4A6B1C9FF7B0E8C2A669B27DE3EEDF8AC772B5ADF1CACF1911ABF93564DA71F1240A84CDE5042920D0989ED795C6A53571C879174B4EADD6E7FB22322FBD9CD59504B6966BE5411E537DCFE38779667" />
+    </item>
+  </cookies>
+</error>

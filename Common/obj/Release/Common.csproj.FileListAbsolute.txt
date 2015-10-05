@@ -1,0 +1,12 @@
+C:\Users\Krone\Desktop\enterpriseedition\Common\bin\Release\Common.dll.config
+C:\Users\Krone\Desktop\enterpriseedition\Common\bin\Release\Common.dll
+C:\Users\Krone\Desktop\enterpriseedition\Common\bin\Release\Common.pdb
+C:\Users\Krone\Desktop\enterpriseedition\Common\bin\Release\EntityFramework.dll
+C:\Users\Krone\Desktop\enterpriseedition\Common\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Krone\Desktop\enterpriseedition\Common\bin\Release\EntityFramework.xml
+C:\Users\Krone\Desktop\enterpriseedition\Common\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Krone\Desktop\enterpriseedition\Common\bin\Release\zh-Hans\EntityFramework.resources.dll
+C:\Users\Krone\Desktop\enterpriseedition\Common\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Krone\Desktop\enterpriseedition\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+C:\Users\Krone\Desktop\enterpriseedition\Common\obj\Release\Common.dll
+C:\Users\Krone\Desktop\enterpriseedition\Common\obj\Release\Common.pdb

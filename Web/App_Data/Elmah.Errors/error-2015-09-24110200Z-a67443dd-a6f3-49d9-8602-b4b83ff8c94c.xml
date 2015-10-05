@@ -1,0 +1,171 @@
+﻿<error errorId="a67443dd-a6f3-49d9-8602-b4b83ff8c94c" application="/LM/W3SVC/20/ROOT" host="DESKTOP-GV8BF1A" type="System.Web.HttpException" message="未找到路径“/Platform/Shared/Index”的控制器或该控制器未实现 IController。" source="System.Web.Mvc" detail="System.Web.HttpException (0x80004005): 未找到路径“/Platform/Shared/Index”的控制器或该控制器未实现 IController。&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController&amp; controller, IControllerFactory&amp; factory)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)&#xD;&#xA;   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="2290c136-b3d2-4c50-b656-a63e01066972,2b463769-fb49-4660-b717-59d8f336f2b5" time="2015-09-24T11:02:00.5984336Z" statusCode="404">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate, sdch&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8,en;q=0.6&#xD;&#xA;HTTP_COOKIE:_ga=GA1.1.1404299012.1442131479; sitekeyword=%3Ca+href%3D%27productlist%2Easp%3Fkind%3D0006+%27%3E%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4820+%27%3E%3F%3F%3F%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4821+%27%3E%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B; ASP.NET_SessionId=g5mxattmiotfx5ghfpmtu20x; mpms 2.0=259D159E44EA9A9B7FC4C25C819DC1F2227DE3FE569168D61A106F4D46062F75A47870B451E76C7222D98D9605A709011D6B3462836502E9EF60C20B7795A09A562B5FE93E1B1003A8929B0FF30365069AC48A91EE797FC11C16A881F56567156E79E7C583121ED4A233EC67420D51FB02DB87A2CDC24F2B7D2A9EAEF7AD36CE49578F16FCDB66249D84218AEC37613C0B01749CDFDC68A024512A7BE9AFECDC172FE4AD3292A0C60301773E7926FC0D218BF31D469561784E678F0DED3ECB435F7C9CC366D8DDB9A6FBBEB304C31A40F082B223482EC4CEC5BBF4B7BC20BDF59755B5F9028C34BB333331BB801ECEC1812935F441B83B7EDE2B65A5FEA4049B11B092F2931907B8BD5E0F7A3BA7A32A&#xD;&#xA;HTTP_HOST:localhost:46648&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36&#xD;&#xA;HTTP_UPGRADE_INSECURE_REQUESTS:1&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate, sdch&#xD;&#xA;Accept-Language: zh-CN,zh;q=0.8,en;q=0.6&#xD;&#xA;Cookie: _ga=GA1.1.1404299012.1442131479; sitekeyword=%3Ca+href%3D%27productlist%2Easp%3Fkind%3D0006+%27%3E%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4820+%27%3E%3F%3F%3F%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4821+%27%3E%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B; ASP.NET_SessionId=g5mxattmiotfx5ghfpmtu20x; mpms 2.0=259D159E44EA9A9B7FC4C25C819DC1F2227DE3FE569168D61A106F4D46062F75A47870B451E76C7222D98D9605A709011D6B3462836502E9EF60C20B7795A09A562B5FE93E1B1003A8929B0FF30365069AC48A91EE797FC11C16A881F56567156E79E7C583121ED4A233EC67420D51FB02DB87A2CDC24F2B7D2A9EAEF7AD36CE49578F16FCDB66249D84218AEC37613C0B01749CDFDC68A024512A7BE9AFECDC172FE4AD3292A0C60301773E7926FC0D218BF31D469561784E678F0DED3ECB435F7C9CC366D8DDB9A6FBBEB304C31A40F082B223482EC4CEC5BBF4B7BC20BDF59755B5F9028C34BB333331BB801ECEC1812935F441B83B7EDE2B65A5FEA4049B11B092F2931907B8BD5E0F7A3BA7A32A&#xD;&#xA;Host: localhost:46648&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36&#xD;&#xA;Upgrade-Insecure-Requests: 1&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/20/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\Krone\Desktop\enterpriseedition\Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="2290c136-b3d2-4c50-b656-a63e01066972,2b463769-fb49-4660-b717-59d8f336f2b5" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="2290c136-b3d2-4c50-b656-a63e01066972,2b463769-fb49-4660-b717-59d8f336f2b5" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="20" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/20" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Platform/Shared/Index" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\Krone\Desktop\enterpriseedition\Web\Platform\Shared\Index" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="28931" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Platform/Shared/Index" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="46648" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/Platform/Shared/Index" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate, sdch" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-CN,zh;q=0.8,en;q=0.6" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="_ga=GA1.1.1404299012.1442131479; sitekeyword=%3Ca+href%3D%27productlist%2Easp%3Fkind%3D0006+%27%3E%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4820+%27%3E%3F%3F%3F%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4821+%27%3E%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B; ASP.NET_SessionId=g5mxattmiotfx5ghfpmtu20x; mpms 2.0=259D159E44EA9A9B7FC4C25C819DC1F2227DE3FE569168D61A106F4D46062F75A47870B451E76C7222D98D9605A709011D6B3462836502E9EF60C20B7795A09A562B5FE93E1B1003A8929B0FF30365069AC48A91EE797FC11C16A881F56567156E79E7C583121ED4A233EC67420D51FB02DB87A2CDC24F2B7D2A9EAEF7AD36CE49578F16FCDB66249D84218AEC37613C0B01749CDFDC68A024512A7BE9AFECDC172FE4AD3292A0C60301773E7926FC0D218BF31D469561784E678F0DED3ECB435F7C9CC366D8DDB9A6FBBEB304C31A40F082B223482EC4CEC5BBF4B7BC20BDF59755B5F9028C34BB333331BB801ECEC1812935F441B83B7EDE2B65A5FEA4049B11B092F2931907B8BD5E0F7A3BA7A32A" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:46648" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36" />
+    </item>
+    <item name="HTTP_UPGRADE_INSECURE_REQUESTS">
+      <value string="1" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="_ga">
+      <value string="GA1.1.1404299012.1442131479" />
+    </item>
+    <item name="sitekeyword">
+      <value string="%3Ca+href%3D%27productlist%2Easp%3Fkind%3D0006+%27%3E%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4820+%27%3E%3F%3F%3F%3F%3F%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B%26nbsp%3B%3Ca+href%3D%27show%2Easp%3Fpkid%3D4821+%27%3E%3F%3F%3F%3F%3C%2Fa%3E%26nbsp%3B" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="g5mxattmiotfx5ghfpmtu20x" />
+    </item>
+    <item name="mpms 2.0">
+      <value string="259D159E44EA9A9B7FC4C25C819DC1F2227DE3FE569168D61A106F4D46062F75A47870B451E76C7222D98D9605A709011D6B3462836502E9EF60C20B7795A09A562B5FE93E1B1003A8929B0FF30365069AC48A91EE797FC11C16A881F56567156E79E7C583121ED4A233EC67420D51FB02DB87A2CDC24F2B7D2A9EAEF7AD36CE49578F16FCDB66249D84218AEC37613C0B01749CDFDC68A024512A7BE9AFECDC172FE4AD3292A0C60301773E7926FC0D218BF31D469561784E678F0DED3ECB435F7C9CC366D8DDB9A6FBBEB304C31A40F082B223482EC4CEC5BBF4B7BC20BDF59755B5F9028C34BB333331BB801ECEC1812935F441B83B7EDE2B65A5FEA4049B11B092F2931907B8BD5E0F7A3BA7A32A" />
+    </item>
+  </cookies>
+</error>
